@@ -34,7 +34,7 @@
  */
 
 // Import required utilities
-import { formatDate, calculateTimeLeft, createCountdownTimer, hasExpired } from './Utils.js';
+
 
 /**
  * Section 2: Type Definitions & Constants
