@@ -168,7 +168,7 @@ const ERROR_MESSAGES = {
  * @param {Array} timerIds - Array to track active countdown timers
  * @returns {string} Generated HTML for events section
  */
-export async function processEvents(currentEvents, localizationData, lang, timerIds) {
+async function processEvents(currentEvents, localizationData, lang, timerIds) {
     // Return early if no events exist
     if (!currentEvents || Object.keys(currentEvents).length === 0) {
         return '';
